@@ -47,15 +47,15 @@ body {
 
 .footer .copyright {
   padding-bottom: 1em;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 1.8em;
+  font-family: "Allerta", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 1.7em;
   font-weight: bold;
 }
 
-.footer .about a {
+.footer .foot-nav a {
   color: #DA5127;
   text-decoration: none;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Allerta", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1.5em;
   font-weight: bold;
 }
