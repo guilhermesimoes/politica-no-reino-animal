@@ -1,4 +1,4 @@
-## Politics
+# Politics
 
 A really simple site designed with the two following concepts in mind:
 
