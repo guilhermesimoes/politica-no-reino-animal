@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+  overflow-y: scroll;   /* Easiest way to avoid the side jump when the scrollbar appears but this way the scrollbar is always visible.. */
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  background-image: url('/images/climpek.png');
+  color: #291D1D;
+  font-size: 62.5%;
+}
+
+.group:before, .group:after {
+content: '';
+display: table;
+}
+.group:after {
+clear: both;
+}
+.group {
+zoom: 1; /* IE6&7 */
+}
+
+.header {
+  padding-top: 3em;     /* 30px */
+  text-align: center;
+
+  h1 {
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    font-size: 6em;     /* 60px */
+  }
+
+  a {
+    text-decoration: none;
+    color: #291D1D;
+  }
+}
+
+.content {
+  padding-bottom: 15em; /*height of footer plus some*/
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-bottom: 2.2em;
+
+  .copyright {
+    padding-bottom: 1em;
+    font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+
+  .foot-nav a {
+    color: #DA5127;
+    text-decoration: none;
+    font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+.home {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 1.8em;     /* 18px */
+
+  h2 {
+    margin-top: 2.2em;
+  }
+
+  p {
+    margin: 1em;
+  }
+}
+
+.credits {
+  padding-top: 5em;
+  text-align: center;
+  font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 1.8em;     /* 18px */
+
+  table {
+    display: inline-block;
+  }
+
+  td {
+    padding-bottom: 1.5em;
+
+    td {
+
+      &:first-child {
+        text-align: right;
+        padding-right: 1.5em;
+      }
+
+      &:last-child {
+        text-align: left;
+      }
+    }
+
+    a {
+
+      &:link {
+        color: #291D1D;
+        text-decoration: none;
+      }
+
+      &:visited {
+        color: #291D1D;
+      }
+
+      &:hover {
+        color: #DA5127;
+      }
+
+      &:active {
+        color: #291D1D;
+      }
+    }
+  }
+}
