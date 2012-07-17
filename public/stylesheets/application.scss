@@ -94,22 +94,6 @@ zoom: 1; /* IE6&7 */
 
   table {
     display: inline-block;
-  }
-
-  td {
-    padding-bottom: 1.5em;
-
-    td {
-
-      &:first-child {
-        text-align: right;
-        padding-right: 1.5em;
-      }
-
-      &:last-child {
-        text-align: left;
-      }
-    }
 
     a {
 
@@ -129,6 +113,19 @@ zoom: 1; /* IE6&7 */
       &:active {
         color: #291D1D;
       }
+    }
+  }
+
+  tr td {
+    padding-bottom: 1.5em;
+
+    &:first-child {
+      text-align: right;
+      padding-right: 1.5em;
+    }
+
+    &:last-child {
+      text-align: left;
     }
   }
 }
