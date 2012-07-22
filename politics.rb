@@ -1,5 +1,4 @@
 class Politics < Sinatra::Base
-  set :root, File.dirname(__FILE__)
   register Sinatra::AssetPack
 
   assets {

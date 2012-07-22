@@ -1,4 +1,4 @@
-$small-break: 480px;
+$small-break: 500px;
 $medium-break: 800px;
 $large-break: 1240px;
 
@@ -86,17 +86,17 @@ zoom: 1; /* IE6&7 */
   }
 
   @media screen and (min-width: $medium-break) {
-    width: 80%;
+    width: 75%;
   }
 
   @media screen and (min-width: $large-break) {
-    width: 70%;
+    width: 60%;
   }
 
 
 
   h2 {
-    margin-top: 2.2em;
+    margin-top: 2.5em;
   }
 
   p {
