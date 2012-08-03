@@ -33,12 +33,21 @@ zoom: 1; /* IE6&7 */
 }
 
 .header {
-  padding-top: 3em;     /* 30px */
+  padding: 3em 1em 0 1em;
   text-align: center;
 
   h1 {
     font-family: 'Crimson Text', Georgia, Times, serif;
-    font-size: 6em;     /* 60px */
+    font-weight: bold;
+    font-size: 2.5em;
+
+    @media screen and (min-width: $small-break) {
+      font-size: 4.6em;
+    }
+
+    @media screen and (min-width: $large-break) {
+      font-size: 6em;
+    }
   }
 
   a {
@@ -48,7 +57,11 @@ zoom: 1; /* IE6&7 */
 }
 
 .content {
-  padding-bottom: 15em; /*height of footer plus some*/
+  padding-bottom: 10em; /*height of footer plus some*/
+
+  @media screen and (min-width: $small-break) {
+    padding-bottom: 15em;
+  }
 }
 
 .footer {
@@ -62,16 +75,24 @@ zoom: 1; /* IE6&7 */
   .copyright {
     padding-bottom: 1em;
     font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-    font-size: 1.7em;
     font-weight: bold;
+    font-size: 1.2em;
+
+    @media screen and (min-width: $small-break) {
+      font-size: 1.6em;
+    }
   }
 
   .foot-nav a {
     color: #DA5127;
     text-decoration: none;
     font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-    font-size: 1.5em;
     font-weight: bold;
+    font-size: 1.1em;
+
+    @media screen and (min-width: $small-break) {
+      font-size: 1.5em;
+    }
   }
 }
 
@@ -79,10 +100,11 @@ zoom: 1; /* IE6&7 */
   width: 94%;
   margin: 0 auto;
   font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 1.8em;     /* 18px */
+  font-size: 1em;
 
   @media screen and (min-width: $small-break) {
     width: 90%;
+    font-size: 1.8em;
   }
 
   @media screen and (min-width: $medium-break) {
@@ -93,10 +115,14 @@ zoom: 1; /* IE6&7 */
     width: 60%;
   }
 
-
-
   h2 {
-    margin-top: 2.5em;
+    margin-top: 3em;
+    font-size: 1em;
+
+    @media screen and (min-width: $small-break) {
+      margin-top: 2.5em;
+      font-size: 1.5em;
+    }
   }
 
   p {
@@ -105,13 +131,21 @@ zoom: 1; /* IE6&7 */
 }
 
 .credits {
-  padding-top: 5em;
+  position: absolute;
+  top: 44%;
+  margin-top: -54px;
+  width: 100%;
   text-align: center;
   font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 1.8em;     /* 18px */
+  font-size: 1.4em;
+
+  @media screen and (min-width: $small-break) {
+    font-size: 1.8em;
+  }
 
   table {
     display: inline-block;
+    padding: 0 1em 0 1em;
 
     a {
 
