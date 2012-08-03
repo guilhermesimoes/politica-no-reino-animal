@@ -42,10 +42,6 @@ zoom: 1; /* IE6&7 */
     font-size: 2.5em;
 
     @media screen and (min-width: $small-break) {
-      font-size: 4.6em;
-    }
-
-    @media screen and (min-width: $large-break) {
       font-size: 6em;
     }
   }
@@ -70,7 +66,7 @@ zoom: 1; /* IE6&7 */
   left: 0;
   right: 0;
   text-align: center;
-  padding-bottom: 2.2em;
+  padding-bottom: 2.5em;
 
   .copyright {
     padding-bottom: 1em;
