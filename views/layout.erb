@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="politics, cgpgrey" />
-  <meta name="author" content="Guilherme Simoes" />
-  
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+  <meta name='keywords' content='politics, cgpgrey' />
+  <meta name='description' content='Um site sobre diferentes sistemas eleitorais.'>
+  <meta name='application-name' content='Política no Reino Animal'>
+  <meta name='msapplication-tooltip' content='Um site sobre diferentes sistemas eleitorais.'>
+  <meta name='author' content='Guilherme Simoes'>
+  <link rel='author' href='https://plus.google.com/105718471083306751613/posts'/>
+  <link rel='icon' type='image/x-icon' href='/images/favicon.ico' />
   <title>Política Animal</title>
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   <%= css :application %>
   <link href='http://fonts.googleapis.com/css?family=Crimson+Text|Allerta' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class="header">
-    <h1><a href="/">Política no Reino Animal</a></h1>
+  <div class='header'>
+    <h1><a href='/'>Política no Reino Animal</a></h1>
   </div>
   
-  <div class="content">
+  <div class='content'>
     <%= yield %>
   </div>
 
-  <div class="footer">
-    <div class="copyright">&copy; 2O12 Guilherme Sim&otilde;es</div>
-    <div class="foot-nav"><a href="/creditos">Cr&#233;ditos</a></div>
+  <div class='footer'>
+    <div class='copyright'>&copy; 2O12 Guilherme Sim&otilde;es</div>
+    <div class='foot-nav'><a href='/creditos'>Cr&#233;ditos</a></div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
   <%= js :application %>
 </body>
 </html>
