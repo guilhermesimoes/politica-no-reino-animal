@@ -138,6 +138,13 @@ zoom: 1; /* IE6&7 */
     text-align: justify;
     text-justify: newspaper;
   }
+
+  iframe[seamless] {
+    background-color: transparent;
+    border: 0 none transparent;
+    padding: 0;
+    overflow: hidden;
+  }
 }
 
 .credits {
