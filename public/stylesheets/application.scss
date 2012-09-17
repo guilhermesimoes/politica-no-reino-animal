@@ -11,11 +11,8 @@ html {
   height: 100%;
   font-size: 16px;
   overflow-y: scroll;   /* Easiest way to avoid the side jump when the scrollbar appears but this way the scrollbar is always visible.. */
-  -webkit-text-size-adjust: none;
-
-  @media screen and (min-width: $small-break) {
-    -webkit-text-size-adjust: auto;
-  }
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 body {
