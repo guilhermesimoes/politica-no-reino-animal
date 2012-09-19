@@ -1,10 +1,12 @@
+/* Read more at http://www.netmagazine.com/tutorials/create-fluid-width-videos */
+
 $(function() {
 
 	// Find all YouTube videos
 	var $allVideos = $("iframe[src^='http://www.youtube.com']"),
 
-	    // The element that is fluid width
-	    $fluidEl = $(".home");
+		// The element that is fluid width
+		$fluidEl = $(".home");
 
 	// Figure out and save aspect ratio for each video
 	$allVideos.each(function() {
