@@ -1,4 +1,7 @@
 @mixin breakpoint($point) {
+  @if $point == tiny-break {
+    @media (min-width: 300px) { @content; }
+  }
   @if $point == small-break {
     @media (min-width: 550px) { @content; }
   }
@@ -38,7 +41,11 @@ body {
   h1 {
     font-family: 'Crimson Text', Georgia, Times, serif;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 1.9em;
+
+    @include breakpoint(tiny-break) {
+      font-size: 2.5em;
+    }
 
     @include breakpoint(small-break) {
       font-size: 6em;
@@ -170,21 +177,29 @@ body {
   }
 
   a.link {
-      &:link {
-        color: #291D1D;
-        text-decoration: none;
-      }
-
-      &:visited {
-        color: #291D1D;
-      }
-
-      &:hover {
-        color: #DA5127;
-      }
-
-      &:active {
-        color: #291D1D;
-      }
+    &:link {
+      color: #291D1D;
+      text-decoration: none;
     }
+
+    &:visited {
+      color: #291D1D;
+    }
+
+    &:hover {
+      color: #DA5127;
+    }
+
+    &:active {
+      color: #291D1D;
+    }
+  }
+
+  .word-wrap-break {
+    display: block;
+
+    @include breakpoint(tiny-break) {
+      display: inline;
+    }
+  }
 }
