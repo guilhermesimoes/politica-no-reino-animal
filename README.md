@@ -9,8 +9,12 @@ Try it out [here](http://politica-no-reino-animal.heroku.com/). To see how the l
 
 Alternatively, check the site through [responsinator](http://www.responsinator.com/?scroll=ext&url=politica-no-reino-animal.heroku.com).
 
-## How to run
+## Setup
 
-Start a web server on port 3000 with:
+First, install all the required gems with:
 
-    rackup --port 3000
+    bundle install --without production
+
+Then start a web server on port 4567 with:
+
+    rackup --port 4567
