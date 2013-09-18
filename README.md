@@ -1,4 +1,4 @@
-# Politics
+# Politics In The Animal Kingdom
 
 A really simple site designed with the two following concepts in mind:
 
