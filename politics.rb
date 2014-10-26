@@ -1,3 +1,5 @@
+require './application_helper'
+
 class Politics < Sinatra::Base
   register Sinatra::AssetPack
 
@@ -25,6 +27,8 @@ class Politics < Sinatra::Base
 
     set :static_cache_control, [:public, :max_age => 31536000]    # Set expire header of 1 year for static files
   end
+
+  helpers ApplicationHelper
 
   # Use this to define your 404 page.
   not_found do
