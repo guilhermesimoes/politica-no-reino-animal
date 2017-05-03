@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    background-image: url("images/climpek.png");
+    color: #291D1D;
+    font-size: 62.5%
+}
+
+.header {
+    padding: 3em 1em 3em 1em;
+    text-align: center
+}
+.header h1 {
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 1.9em
+}
+
+@media (min-width: 300px) {
+    .header h1 {
+        font-size: 2.5em
+    }
+}
+@media (min-width: 550px) {
+    .header h1 {
+        font-size: 6em
+    }
+}
+
+.header a {
+    text-decoration: none;
+    color: #291D1D
+}
+
+.content {
+    padding-bottom: 10em
+}
+
+@media (min-width: 550px) {
+    .content {
+        padding-bottom: 15em
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-bottom: 2.5em;
+    font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-weight: bold
+}
+
+.footer .copyright {
+    padding-bottom: 0.6em;
+    font-size: 1.2em
+}
+
+@media (min-width: 550px) {
+    .footer .copyright {
+        padding-bottom: 1em;
+        font-size: 1.6em
+    }
+}
+
+.footer .foot-nav a {
+    color: #DA5127;
+    text-decoration: none;
+    font-size: 1.1em
+}
+
+@media (min-width: 550px) {
+    .footer .foot-nav a {
+        font-size: 1.5em
+    }
+}
+
+.home {
+    width: 94%;
+    margin: 0 auto;
+    font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 1.2em
+}
+
+@media (min-width: 550px) {
+    .home {
+        width: 90%;
+        font-size: 1.8em
+    }
+}
+
+@media (min-width: 800px) {
+    .home {
+        width: 75%
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .home {
+        width: 60%
+    }
+}
+
+.home h2 {
+    margin-top: 3.4em;
+    font-size: 1.2em
+}
+
+.home h2:first-child {
+    margin-top: 0
+}
+
+@media (min-width: 550px) {
+    .home h2 {
+        margin-top: 2.5em;
+        font-size: 1.5em
+    }
+
+    .home h2:first-child {
+        margin-top: 1em
+    }
+}
+
+.home p {
+    margin: 1em;
+    text-align: justify;
+    text-justify: newspaper
+}
+
+.home iframe[seamless] {
+    background-color: transparent;
+    border: 0 none transparent;
+    padding: 0;
+    overflow: hidden
+}
+
+.credits {
+    padding-top: 8%;
+    text-align: center;
+    font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 1.2em
+}
+
+@media (min-width: 550px) {
+    .credits {
+        font-size: 1.8em
+    }
+}
+
+.credits table {
+    display: inline-block;
+    padding: 0 1em 0 1em
+}
+
+.credits td {
+    padding-bottom: 1.5em
+}
+
+.credits td:first-child {
+    text-align: right;
+    padding-right: 1.5em
+}
+
+.credits td:last-child {
+    text-align: left
+}
+
+.credits a.link:link {
+    color: #291D1D;
+    text-decoration: none
+}
+
+.credits a.link:visited {
+    color: #291D1D
+}
+
+.credits a.link:hover {
+    color: #DA5127
+}
+
+.credits a.link:active {
+    color: #291D1D
+}
+
+.credits .word-wrap-break {
+    display: block
+}
+
+@media (min-width: 300px) {
+    .credits .word-wrap-break {
+        display: inline
+    }
+}
