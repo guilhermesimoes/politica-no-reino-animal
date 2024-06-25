@@ -55,41 +55,6 @@ body {
     }
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding-bottom: 2.5em;
-    font-family: 'Allerta', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-    font-weight: bold
-}
-
-.footer .copyright {
-    padding-bottom: 0.6em;
-    font-size: 1.2em
-}
-
-@media (min-width: 550px) {
-    .footer .copyright {
-        padding-bottom: 1em;
-        font-size: 1.6em
-    }
-}
-
-.footer .foot-nav a {
-    color: #DA5127;
-    text-decoration: none;
-    font-size: 1.1em
-}
-
-@media (min-width: 550px) {
-    .footer .foot-nav a {
-        font-size: 1.5em
-    }
-}
-
 .home {
     width: 94%;
     margin: 0 auto;
