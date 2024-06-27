@@ -56,28 +56,16 @@ body {
 }
 
 .home {
-    width: 94%;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 0 1em;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 1.2em
 }
 
 @media (min-width: 550px) {
     .home {
-        width: 90%;
         font-size: 1.8em
-    }
-}
-
-@media (min-width: 800px) {
-    .home {
-        width: 75%
-    }
-}
-
-@media screen and (min-width: 1240px) {
-    .home {
-        width: 60%
     }
 }
 
@@ -102,7 +90,7 @@ body {
 }
 
 .home p {
-    margin: 1em;
+    margin: 1em 0;
     text-align: justify;
     text-justify: newspaper
 }
