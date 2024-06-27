@@ -107,9 +107,12 @@ body {
     text-justify: newspaper
 }
 
-.home iframe[seamless] {
+.home iframe {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 800 / 480;
     background-color: transparent;
     border: 0 none transparent;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
 }

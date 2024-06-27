@@ -35,7 +35,11 @@
     </div>
   </div>
 
-  <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f' crossorigin='anonymous'></script>
-  <script src="scripts.js"></script>
+  <script type="text/javascript">
+    Array.from(document.querySelectorAll('iframe')).forEach(iframe => {
+      iframe.removeAttribute('width');
+      iframe.removeAttribute('height');
+    })
+  </script>
 </body>
 </html>
